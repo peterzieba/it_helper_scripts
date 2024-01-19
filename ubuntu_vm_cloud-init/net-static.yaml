@@ -1,0 +1,8 @@
+version: 2
+ethernets:
+  enp1s0:
+    dhcp4: no
+    addresses: [10.145.2.1/24]
+    gateway4: 10.145.2.1
+    nameservers:
+      addresses: [1.1.1.1]
