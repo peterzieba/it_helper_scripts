@@ -27,6 +27,7 @@ manage_etc_hosts: false
 ssh_pwauth: true
 password: newpass!
 disable_root: false
+timezone: America/Chicago
 packages:
   - mc
 EOF
